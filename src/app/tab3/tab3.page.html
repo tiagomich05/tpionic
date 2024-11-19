@@ -1,0 +1,50 @@
+<body>
+  
+  <ion-content >
+    <h1>Agregar Alarma</h1>
+    <ion-datetime presentation="time" class="reloj">
+
+    </ion-datetime>
+  
+
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Configuraciones de la notificación</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="floating">Repetir:</ion-label>
+          <ion-select value="NUNCA">
+            <ion-select-option value="NUNCA">NUNCA</ion-select-option>
+            <ion-select-option value="DIARIO">DIARIO</ion-select-option>
+            <ion-select-option value="SEMANAL">SEMANAL</ion-select-option>
+            <ion-select-option value="MENSUAL">MENSUAL</ion-select-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Etiqueta:</ion-label>
+          <ion-input type="text" placeholder="Ingrese una etiqueta"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Sonido:</ion-label>
+          <ion-select value="predeterminado">
+            <ion-select-option value="predeterminado">predeterminado</ion-select-option>
+            <ion-select-option value="tono1">tono1</ion-select-option>
+            <ion-select-option value="tono2">tono2</ion-select-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Posponer:</ion-label>
+          <ion-range min="0" max="120" step="1" snaps="true" pin="true" value="0"></ion-range>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Lugar:</ion-label>
+          <ion-input type="text" placeholder="Ingrese un lugar"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>Agregar al calendario:</ion-label>
+       
+     
+  
+          
