@@ -1,0 +1,126 @@
+/* Estilos generales para la página de inicio */
+ion-content {
+    --background: #f4f4f9;  /* Fondo suave y limpio */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh; /* Asegura que el contenido ocupe toda la altura de la pantalla */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuye el contenido con espacio entre ellos */
+    align-items: center;
+    background: linear-gradient(rgba(22, 24, 27, 0.8), rgba(29, 30, 34, 0.8)), url(../../assets/imagenfondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+/* Estilo para el título principal */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #08f108;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px; /* Añade un margen superior para separarlo del borde */
+}
+
+/* Estilo para el párrafo de bienvenida */
+p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 600px;
+    text-align: center;
+    margin-top: auto; /* Empuja el párrafo hacia la parte inferior */
+}
+
+/* Estilo para el ion-card de bienvenida */
+ion-card {
+    
+        display: flex;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        border-radius: 20px;
+        background-color: rgba(88, 88, 88, 0.18);
+        box-shadow: rgba(14, 37, 167, 0.37);
+        backdrop-filter: blu(30px);
+        border: 12px solid rgba(14, 11, 185, 0.18);
+        width: 400px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+ion-card-header {
+    text-align: center;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+}
+
+ion-card-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el contenido del ion-card */
+ion-card-content {
+    font-size: 1rem;
+    color: #34495e;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Estilo para el botón */
+ion-button {
+    margin-top: 30px;
+    --background: #3498db;  /* Color principal */
+    --color: white;
+    --border-radius: 25px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+
+ion-button[expand="full"] {
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* Estilo para el encabezado principal */
+ion-toolbar {
+    background-color: #3498db; /* Color de fondo del toolbar */
+    color: white;
+}
+
+ion-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Efecto de sombra y transición en el header */
+ion-header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ion-header[collapse="condense"] {
+    background-color: #3498db;  /* Condense header con el mismo color */
+}
+
+  
